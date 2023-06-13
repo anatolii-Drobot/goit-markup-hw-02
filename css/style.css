@@ -15,6 +15,9 @@ body{
   background-color:#FFFFFF;
   color: #434455;
   }
+.head-navigation {
+
+}
 header a{
   color: var(--fazer-litl-text);
 }
@@ -62,13 +65,9 @@ font-style: normal;
 
 
 }
-.mail{
-  letter-spacing: 0.02em;
-}
-.tel>a:hover,
-.tel>a:focus{
-  color: var(--button-stail-color-2);
-}
+
+
+
 .stail-button-list{
   list-style: none;
 
@@ -143,6 +142,9 @@ main p {
 
 .pictures li{
   background-color: var(--background-picture-1);
+}
+.footer-staile {
+
 }
 .web-stail-2{
   font-family: 'Raleway', sans-serif;
