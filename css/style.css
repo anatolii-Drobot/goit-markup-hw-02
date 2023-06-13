@@ -113,14 +113,17 @@ font-style: normal;
 .piktures-main {
   background-color: var(--webstudio-backround);
   text-decoration: none;
+
   
 }
 .piktures-main-stail{
 font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
+font-size: 56px;
+line-height: 0.7;
+text-align: center;
 letter-spacing: 0.02em;
-color: var(--webstudio-backround);
+color: var(--background-picture);
+
 
 }
 .piktures-main-stail-text{
