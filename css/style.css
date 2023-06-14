@@ -12,8 +12,9 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
-  background-color:#FFFFFF;
   color: #434455;
+  background-color:#FFFFFF;
+  
   }
 
 .web-stail-1{
@@ -24,24 +25,20 @@ body{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--button-stail-color-4--web-1);
-
+  text-decoration: none
 }
-.web-stail {
+.web-stail{
   color: var(--webstudio-backround);
 }
-.list{
-  list-style: none;
-}
 .list-studio{
+  list-style: none;
   font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--webstudio-backround);
-}
-.list-studio >link
-{
-text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--webstudio-backround);
+  text-decoration: none;
+
 }
 .list-studio>a:hover,
 a:focus
@@ -51,12 +48,22 @@ color: var(--button-stail-color-2);
 .link{
   text-decoration: none;
 }
-.kontakt-head {
+address{ 
+  font-style: normal
+}
+.kontakt-head
+ {
 font-style: normal;
-
+list-style: none;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 
 }
-
+.kontakt-head a:hover,
+a:focus{
+color:var(--button-stail-color-2);
+}
 
 
 .stail-button-list{
