@@ -15,16 +15,7 @@ body{
   background-color:#FFFFFF;
   color: #434455;
   }
-.head-navigation {
 
-}
-header a{
-  color: var(--fazer-litl-text);
-}
-header a:hover,
-a:focus {
-  color: var(--button-stail-color-4--web-1);
-}
 .web-stail-1{
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -110,12 +101,20 @@ font-style: normal;
 
 }
  
-.piktures-main {
+.piktures-main-head {
   background-color: var(--webstudio-backround);
-  text-decoration: none;
-
-  
+  text-decoration: none; 
 }
+
+.piktures{
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff;
+
+}
+
 .piktures-main-stail{
 font-weight: 500;
 font-size: 56px;
