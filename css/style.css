@@ -27,18 +27,17 @@ body{
   color:var(--button-stail-color-4--web-1);
   text-decoration: none
 }
-.web-stail{
+.accent{
   color: var(--webstudio-backround);
 }
 .list-studio{
-  list-style: none;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--webstudio-backround);
   text-decoration: none;
-
+  list-style: none;
 }
 .list-studio>a:hover,
 a:focus
@@ -47,6 +46,7 @@ color: var(--button-stail-color-2);
 }
 .link{
   text-decoration: none;
+ 
 }
 address{ 
   font-style: normal
@@ -58,13 +58,17 @@ list-style: none;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: var(--webstudio-backround);
+
 
 }
 .kontakt-head a:hover,
 a:focus{
 color:var(--button-stail-color-2);
 }
-
+.kontakt-head>a{
+  color: var(--fazer-litl-text);
+}
 
 .stail-button-list{
   list-style: none;
@@ -91,6 +95,7 @@ color:var(--button-stail-color-2);
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  
 }
 .staile-button:hover,
 .staile-button:focus{
@@ -98,6 +103,9 @@ color:var(--button-stail-color-2);
   background-color: #404BBF;
   
 
+}
+.portfolio ul{
+list-style: none;
 }
 .piktures-list{
 list-style: none
@@ -151,11 +159,10 @@ color: var(--fazer-litl-text);
 
 }
 .compani-piktures-body{
-  font-size: 36px;
+  font-size: 20px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  
   color: var(--webstudio-backround);
   list-style: none;
 }
