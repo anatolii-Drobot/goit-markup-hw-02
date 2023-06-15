@@ -117,7 +117,7 @@ list-style: none;
   color: var(--button-stail-color);
   letter-spacing: 0.02em
 }
-.web-stail-link {
+nav>a {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
