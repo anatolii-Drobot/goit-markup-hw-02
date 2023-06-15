@@ -41,6 +41,9 @@ cursor: pointer
 {
 background-color: var(--button-stail-color-2);
 }
+.link{
+  text-decoration: none;
+}
 .button-list{
 list-style: none;
 }
@@ -192,7 +195,7 @@ color: #f4f4fd;
   font-style: normal;
 
 }
- .piktures-compani {
+ .compani {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -223,4 +226,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--fazer-litl-text);
 
+}
+.piktures-list link{
+text-decoration: none;
 }
