@@ -41,6 +41,32 @@ cursor: pointer
 {
 background-color: var(--button-stail-color-2);
 }
+.button-list{
+list-style: none;
+}
+.staile-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-stail-color-4--web-1);
+  background-color: var(--button-stail-color);
+ cursor: pointer;
+}
+.staile-button:hover,
+.staile-button:focus
+{
+color: #ffffff;
+background-color: #404BBF;
+}
+.piktures-list{
+list-style: none;
+}
+.piktures-link{
+text-decoration: none;
+
+}
 .lorem-list {
   list-style: none;
 }
@@ -143,6 +169,7 @@ color: #404bbf;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--fazer-litl-text);
+  text-decoration: none
 
 }
 .kontakt-link:hover,
@@ -157,6 +184,17 @@ background-color:var(--webstudio-backround);
 color: #f4f4fd;
 
 }
+.kontakt-head{
+  font-style: normal;
 
-
-
+}
+ .piktures-compani {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--webstudio-backround);
+ }
+ .text-compani {
+  font-size: 16px
+ }
