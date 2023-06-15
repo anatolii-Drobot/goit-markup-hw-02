@@ -114,7 +114,7 @@ list-style: none;
   color: var(--button-stail-color);
   letter-spacing: 0.02em
 }
-.web-stail-link a{
+.web-stail-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -202,3 +202,25 @@ color: #f4f4fd;
  .text-compani {
   font-size: 16px
  }
+.strategy-team{
+  font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--webstudio-backround);
+}
+.our-team{
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--fazer-litl-text);
+    text-decoration: none
+}
+.our-portfolio{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--fazer-litl-text);
+
+}
