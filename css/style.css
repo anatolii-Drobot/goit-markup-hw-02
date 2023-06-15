@@ -113,6 +113,7 @@ list-style: none;
   letter-spacing: 0.02em
 }
 .web-stail-link{
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
