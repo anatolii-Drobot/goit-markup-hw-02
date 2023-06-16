@@ -161,7 +161,6 @@ nav>ul>li>.link{
 nav>ul>li>.link:hover,
 nav>ul>li>.link:focus{
 color: var(--button-stail-color-2);
-
 }
 
 .nav-link:hover,
