@@ -145,6 +145,10 @@ list-style: none;
 .nav-link{
   text-decoration: none; 
   color: var(--webstudio-backround);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus{
