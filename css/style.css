@@ -188,18 +188,26 @@ color:var(--button-stail-color-2);
 .kontakt-list{
   list-style: none;
 }
-.kontakt-link{
-  font-size: 16px;
+header>address>ul>li .link{
+  text-transform: none;
+}
+
+header>nav>ul>li .link{
+text-transform: none;
+}
+address>ul>li>.link{
+font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--fazer-litl-text);
   text-decoration: none;
+}
+address>ul>li>.link:hover,
+address>ul>li>.link:focus{
+color: var(--button-stail-color-2);
+}
 
-}
-.kontakt-link:hover,
-.kontakt-link:focus{
-  color: var(--button-stail-color-2);
-}
+
 .footer-link{
 background-color:var(--webstudio-backround);
 
