@@ -141,6 +141,7 @@ list-style: none;
 
 }
 .nav-link{
+  
   text-decoration: none; 
   color: var(--webstudio-backround);
   font-weight: 500;
@@ -148,6 +149,9 @@ list-style: none;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+
+
 .nav-link:hover,
 .nav-link:focus{
 color: var(--button-stail-color-2);
