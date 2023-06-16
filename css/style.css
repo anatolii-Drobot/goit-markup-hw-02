@@ -158,7 +158,11 @@ nav>ul>li>.link{
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+nav>ul>li>.link:hover,
+nav>ul>li>.link:focus{
+color: var(--button-stail-color-2);
 
+}
 
 .nav-link:hover,
 .nav-link:focus{
