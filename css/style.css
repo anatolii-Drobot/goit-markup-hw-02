@@ -150,6 +150,9 @@ header>nav>a {
   color: var(--webstudio-backround);
 
 }
+.link{
+  text-decoration: none;
+}
 .nav-link{
   
   text-decoration: none; 
@@ -234,9 +237,8 @@ color: var(--button-stail-color);
   letter-spacing: 0.02em;
   color: var(--webstudio-backround);
  }
- .text-compani {
-  font-size: 16px
- }
+
+ 
 .strategy-team{
   font-size: 36px;
     line-height: 1.11;
