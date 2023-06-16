@@ -12,8 +12,8 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color:#FFFFFF;
+  color: var(--fazer-litl-text);
+  background-color:var(--button-stail-color-3);
   
   }
 .effective {
@@ -24,16 +24,16 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #ffffff;
+color: var(--button-stail-color-3);
 }
 .non-button{
-background-color: #4D5AE5;
+background-color:var(--button-stail-color-4--web-1);
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #ffffff;
+color: var(--button-stail-color-3);
 cursor: pointer
 }
 .non-button:hover,
@@ -60,8 +60,8 @@ list-style: none;
 .staile-button:hover,
 .staile-button:focus
 {
-color: #ffffff;
-background-color: #404BBF;
+color: var(--button-stail-color-3);
+background-color: var(--button-stail-color-2);
 }
 .piktures-list{
 list-style: none;
@@ -72,7 +72,7 @@ text-decoration: none;
 }
 .lorem-list {
   list-style: none;
-  background-color: #FFFFFF;
+  background-color: var(--button-stail-color-3);
 }
 .strategy  {
 font-weight: 500;
@@ -102,7 +102,7 @@ color: var(--webstudio-backround);
   list-style: none
 }
 .team{
-background-color: #F4F4FD;
+background-color:var(--button-stail-color);
 }
 
 
@@ -110,7 +110,7 @@ background-color: #F4F4FD;
 list-style: none;
 }
 .tom{
-  background-color: #ffffff;
+  background-color: var(--button-stail-color-3);
 }
 .footer-text{
   line-height: 1.5;
@@ -148,7 +148,7 @@ list-style: none;
 }
 .nav-link:hover,
 .nav-link:focus{
-color: #404bbf;
+color: var(--button-stail-color-2);
 }
 nav .list{
   list-style: none
@@ -166,7 +166,7 @@ color: var(--webstudio-backround);
 .list-studio a:hover,
 .list-studio a:focus
 {
-color: #404bbf;
+color:var(--button-stail-color-2);
 }
 .kontakt-list{
   list-style: none;
@@ -176,19 +176,19 @@ color: #404bbf;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--fazer-litl-text);
-  text-decoration: none
+  text-decoration: none;
 
 }
 .kontakt-link:hover,
 .kontakt-link:focus{
-  color: #404bbf;
+  color: var(--button-stail-color-2);
 }
 .footer-link{
 background-color:var(--webstudio-backround);
 
 }
 .stail-web-studio{
-color: #f4f4fd;
+color: var(--button-stail-color);
 
 }
 .kontakt-head{
