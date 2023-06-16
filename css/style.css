@@ -41,9 +41,7 @@ cursor: pointer
 {
 background-color: var(--button-stail-color-2);
 }
-.link{
-  text-decoration: none;
-}
+
 .button-list{
 list-style: none;
 }
@@ -117,7 +115,7 @@ list-style: none;
   color: var(--button-stail-color);
   letter-spacing: 0.02em
 }
-.logo {
+.link {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
